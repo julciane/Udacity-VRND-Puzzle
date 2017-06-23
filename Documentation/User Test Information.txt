@@ -1,0 +1,31 @@
+I got feedback from 4 users: 
+- User1: Male, age 18-30, around 1,70m
+- User2: Female, age 40-50, around 1.65m
+- User3: Female, age 13-18, around 1,65m
+- User4: Female, age 18-30, around 1,70m
+
+Question1: How do you describe the scene you are seeing?
+User1: Looks like warcraft or an old prison, there is some barrels and torches
+User2: She could see the orbs, the barrels and the exit door
+User3: She could see the orbs, the torches 
+User4: She could see the orbs, the barrels and the torches
+
+Question2: How do you feel when you look around?
+User1: I feel I'm in the past.
+User3: She felt in a cartoon from medieval age.
+User4: She felt like in a medieval castle. She felt like in prison
+
+Question3: How is your height in this scene compared to your real height?
+User1: for him his height in VR scene was the same of his real height. Moreover, he took the HMD to compare the high of the real room to the VR scene.
+User2: She felt flattened.
+User3: She felt shorter.
+User4: The floor is nearest her eyes than it should
+
+Question4: Follow the sequences: (one) 1-2-3-4-5, (two) 1-4-2, (three)1-3-5, (four)4-2-5-3-1
+User1: he could complete all sequencies withing the comfort zone
+User4: she could complete all sequencies withing the comfort zone
+
+Summary:
+1-) The mood was persivioed as an old prison room
+2-) The camera was too close to the floor, user felt shorter than in real world
+3-) Users were able to reach all 5 orbs without stretching his/her body
