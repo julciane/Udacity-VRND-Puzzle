@@ -1369,29 +1369,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
-    - target: {fileID: 2347258, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
-      propertyPath: m_Materials.Array.data[0]
+    - target: {fileID: 114082196438985364, guid: 6117738b1cd9ed246a7af643ac025dbe,
+        type: 2}
+      propertyPath: gameLogic
       value: 
-      objectReference: {fileID: 2100000, guid: 25a239f442ce7414e9483b6485017bc6, type: 2}
-    - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2347258, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
-      propertyPath: m_CastShadows
-      value: 1
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1703243489}
     - target: {fileID: 117794, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 0
+      propertyPath: m_Name
+      value: Dungeon Orb 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
@@ -1643,7 +1628,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2347258, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_Materials.Array.data[0]
@@ -1651,12 +1636,17 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 25a239f442ce7414e9483b6485017bc6, type: 2}
     - target: {fileID: 117794, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_Name
-      value: Dungeon Orb (4)
+      value: Dungeon Orb 3
       objectReference: {fileID: 0}
     - target: {fileID: 2347258, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_CastShadows
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114082196438985364, guid: 6117738b1cd9ed246a7af643ac025dbe,
+        type: 2}
+      propertyPath: gameLogic
+      value: 
+      objectReference: {fileID: 1703243489}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
   m_IsPrefabParent: 0
@@ -2200,6 +2190,39 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 503322561}
+--- !u!1 &526740345 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117794, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
+  m_PrefabInternal: {fileID: 308598736}
+--- !u!114 &526740351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 526740345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bypassRoomEffects: 0
+  directivityAlpha: 0
+  directivitySharpness: 1
+  gainDb: 0
+  occlusionEnabled: 0
+  playOnAwake: 0
+  rolloffMode: 0
+  spread: 0
+  sourceClip: {fileID: 8300000, guid: 1edb62cef9b864418ba8fe914705ae25, type: 3}
+  sourceLoop: 0
+  sourceMute: 0
+  sourcePitch: 1
+  sourcePriority: 128
+  sourceVolume: 1
+  sourceMaxDistance: 500
+  sourceMinDistance: 0
+  hrtfEnabled: 1
+  audioSource: {fileID: 0}
 --- !u!1 &555787157
 GameObject:
   m_ObjectHideFlags: 0
@@ -3353,7 +3376,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 2347258, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_Materials.Array.data[0]
@@ -3361,12 +3384,17 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 25a239f442ce7414e9483b6485017bc6, type: 2}
     - target: {fileID: 117794, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_Name
-      value: Dungeon Orb (3)
+      value: Dungeon Orb 5
       objectReference: {fileID: 0}
     - target: {fileID: 2347258, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_CastShadows
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114082196438985364, guid: 6117738b1cd9ed246a7af643ac025dbe,
+        type: 2}
+      propertyPath: gameLogic
+      value: 
+      objectReference: {fileID: 1703243489}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
   m_IsPrefabParent: 0
@@ -4273,6 +4301,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 907372185}
   m_Mesh: {fileID: 4300034, guid: e8ceb3c20ebd143238a64ca8a8942118, type: 3}
+--- !u!1 &912954813 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117794, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
+  m_PrefabInternal: {fileID: 1175786151}
+--- !u!114 &912954818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 912954813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18171a3c900f45418cad13fc97733d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightUpMaterial: {fileID: 2100000, guid: cb7542e32a28739478bef6ccdeb1cec6, type: 2}
+  gameLogic: {fileID: 1703243489}
+--- !u!114 &912954819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 912954813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bypassRoomEffects: 0
+  directivityAlpha: 0
+  directivitySharpness: 1
+  gainDb: 0
+  occlusionEnabled: 0
+  playOnAwake: 0
+  rolloffMode: 0
+  spread: 0
+  sourceClip: {fileID: 8300000, guid: 1edb62cef9b864418ba8fe914705ae25, type: 3}
+  sourceLoop: 0
+  sourceMute: 0
+  sourcePitch: 1
+  sourcePriority: 128
+  sourceVolume: 1
+  sourceMaxDistance: 500
+  sourceMinDistance: 0
+  hrtfEnabled: 1
+  audioSource: {fileID: 0}
 --- !u!1 &915167599
 GameObject:
   m_ObjectHideFlags: 0
@@ -4909,6 +4983,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1021314639}
   m_Mesh: {fileID: 4300012, guid: e8ceb3c20ebd143238a64ca8a8942118, type: 3}
+--- !u!1 &1026622380 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117794, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
+  m_PrefabInternal: {fileID: 771530585}
+--- !u!114 &1026622385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026622380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18171a3c900f45418cad13fc97733d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightUpMaterial: {fileID: 2100000, guid: cb7542e32a28739478bef6ccdeb1cec6, type: 2}
+  gameLogic: {fileID: 1703243489}
+--- !u!114 &1026622386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026622380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bypassRoomEffects: 0
+  directivityAlpha: 0
+  directivitySharpness: 1
+  gainDb: 0
+  occlusionEnabled: 0
+  playOnAwake: 0
+  rolloffMode: 0
+  spread: 0
+  sourceClip: {fileID: 8300000, guid: 1edb62cef9b864418ba8fe914705ae25, type: 3}
+  sourceLoop: 0
+  sourceMute: 0
+  sourcePitch: 1
+  sourcePriority: 128
+  sourceVolume: 1
+  sourceMaxDistance: 500
+  sourceMinDistance: 0
+  hrtfEnabled: 1
+  audioSource: {fileID: 0}
 --- !u!1 &1027360110
 GameObject:
   m_ObjectHideFlags: 0
@@ -5257,7 +5377,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 2347258, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_Materials.Array.data[0]
@@ -5265,12 +5385,17 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 25a239f442ce7414e9483b6485017bc6, type: 2}
     - target: {fileID: 117794, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_Name
-      value: Dungeon Orb (1)
+      value: Dungeon Orb 4
       objectReference: {fileID: 0}
     - target: {fileID: 2347258, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_CastShadows
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114082196438985364, guid: 6117738b1cd9ed246a7af643ac025dbe,
+        type: 2}
+      propertyPath: gameLogic
+      value: 
+      objectReference: {fileID: 1703243489}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
   m_IsPrefabParent: 0
@@ -5683,7 +5808,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.16
+      value: 0.16000009
       objectReference: {fileID: 0}
     - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_LocalPosition.y
@@ -5695,15 +5820,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_LocalRotation.w
@@ -5711,7 +5836,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2347258, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_Materials.Array.data[0]
@@ -5719,12 +5844,29 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 25a239f442ce7414e9483b6485017bc6, type: 2}
     - target: {fileID: 117794, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_Name
-      value: Dungeon Orb (2)
+      value: Dungeon Orb 2
       objectReference: {fileID: 0}
     - target: {fileID: 2347258, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
       propertyPath: m_CastShadows
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 436798, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114082196438985364, guid: 6117738b1cd9ed246a7af643ac025dbe,
+        type: 2}
+      propertyPath: gameLogic
+      value: 
+      objectReference: {fileID: 1703243489}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
   m_IsPrefabParent: 0
@@ -7285,6 +7427,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1433849770}
   m_Mesh: {fileID: 4300030, guid: e8ceb3c20ebd143238a64ca8a8942118, type: 3}
+--- !u!1 &1436729324 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117794, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
+  m_PrefabInternal: {fileID: 1133228461}
+--- !u!114 &1436729329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1436729324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18171a3c900f45418cad13fc97733d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightUpMaterial: {fileID: 2100000, guid: cb7542e32a28739478bef6ccdeb1cec6, type: 2}
+  gameLogic: {fileID: 1703243489}
+--- !u!114 &1436729330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1436729324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bypassRoomEffects: 0
+  directivityAlpha: 0
+  directivitySharpness: 1
+  gainDb: 0
+  occlusionEnabled: 0
+  playOnAwake: 0
+  rolloffMode: 0
+  spread: 0
+  sourceClip: {fileID: 8300000, guid: 1edb62cef9b864418ba8fe914705ae25, type: 3}
+  sourceLoop: 0
+  sourceMute: 0
+  sourcePitch: 1
+  sourcePriority: 128
+  sourceVolume: 1
+  sourceMaxDistance: 500
+  sourceMinDistance: 0
+  hrtfEnabled: 1
+  audioSource: {fileID: 0}
 --- !u!1 &1442086494
 GameObject:
   m_ObjectHideFlags: 0
@@ -7355,6 +7543,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1442086494}
   m_Mesh: {fileID: 4300022, guid: e8ceb3c20ebd143238a64ca8a8942118, type: 3}
+--- !u!1 &1477592050 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117794, guid: 6117738b1cd9ed246a7af643ac025dbe, type: 2}
+  m_PrefabInternal: {fileID: 347644108}
+--- !u!114 &1477592055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1477592050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18171a3c900f45418cad13fc97733d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightUpMaterial: {fileID: 2100000, guid: cb7542e32a28739478bef6ccdeb1cec6, type: 2}
+  gameLogic: {fileID: 1703243489}
+--- !u!114 &1477592056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1477592050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbca64e524ea44f9b26142ec59aca8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bypassRoomEffects: 0
+  directivityAlpha: 0
+  directivitySharpness: 1
+  gainDb: 0
+  occlusionEnabled: 0
+  playOnAwake: 0
+  rolloffMode: 0
+  spread: 0
+  sourceClip: {fileID: 8300000, guid: 1edb62cef9b864418ba8fe914705ae25, type: 3}
+  sourceLoop: 0
+  sourceMute: 0
+  sourcePitch: 1
+  sourcePriority: 128
+  sourceVolume: 1
+  sourceMaxDistance: 500
+  sourceMinDistance: 0
+  hrtfEnabled: 1
+  audioSource: {fileID: 0}
 --- !u!1 &1478836984
 GameObject:
   m_ObjectHideFlags: 0
@@ -8608,7 +8842,7 @@ GameObject:
   - component: {fileID: 1703243490}
   m_Layer: 5
   m_Name: GameLogic
-  m_TagString: Untagged
+  m_TagString: gameLogic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8625,11 +8859,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1074787414}
+  eventSystem: {fileID: 555787157}
   startUI: {fileID: 1750975374}
   restartUI: {fileID: 157639891}
   startPoint: {fileID: 609716045}
   playPoint: {fileID: 162822651}
   restartPoint: {fileID: 1542860365}
+  puzzleSpheres:
+  - {fileID: 526740345}
+  - {fileID: 912954813}
+  - {fileID: 1477592050}
+  - {fileID: 1436729324}
+  - {fileID: 1026622380}
+  puzzleLength: 5
+  puzzleSpeed: 1
+  currentlyDisplayingPattern: 1
   playerWon: 0
 --- !u!224 &1703243491
 RectTransform:
@@ -8662,6 +8906,7 @@ GameObject:
   - component: {fileID: 1718290823}
   - component: {fileID: 1718290822}
   - component: {fileID: 1718290827}
+  - component: {fileID: 1718290828}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -8755,6 +9000,20 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   quality: 2
+--- !u!114 &1718290828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1718290821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -768656878, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &1731198431
 GameObject:
   m_ObjectHideFlags: 0
