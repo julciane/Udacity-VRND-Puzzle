@@ -6,7 +6,7 @@ public class GameLogic : MonoBehaviour
 
     public GameObject player;
     public GameObject eventSystem;
-    public GameObject startUI, restartUI;
+    public GameObject startUI, restartUI, instructionUI;
     public GameObject startPoint, playPoint, restartPoint;
     public GameObject[] puzzleSpheres; //An array to hold our puzzle spheres
     public GameObject failureAudioHolder;
@@ -55,18 +55,21 @@ public class GameLogic : MonoBehaviour
     }
 
     public void solutionCheck(int playerSelectionIndex)
-    { //We check whether or not the passed index matches the solution index
+    {
+        //We check whether or not the passed index matches the solution index
         if (playerSelectionIndex == puzzleOrder[currentSolveIndex])
         { //Check if the index of the object the player passed is the same as the current solve index in our solution array
             currentSolveIndex++;
             Debug.Log("Correct!  You've solved " + currentSolveIndex + " out of " + puzzleLength);
             if (currentSolveIndex >= puzzleLength)
             {
+                instructionUI.SetActive(false);
                 puzzleSuccess();
             }
         }
         else
         {
+            instructionUI.SetActive(false);
             puzzleFailure();
         }
 
@@ -106,6 +109,7 @@ public class GameLogic : MonoBehaviour
                 currentDisplayIndex = 0;
                 CancelInvoke(); //Stop the pattern display.  May be better to use coroutines for this but oh well
                 eventSystem.SetActive(true); //Enable gaze input when we aren't displaying the pattern.
+                instructionUI.SetActive(true);
             }
         }
     }
